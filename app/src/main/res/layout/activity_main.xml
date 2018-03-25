@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.myapplication21.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Select a Button" />
+
+    <Button
+        android:id="@+id/buttonTextOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewSelect"
+        android:layout_alignRight="@+id/textViewSelect"
+        android:layout_below="@+id/textViewSelect"
+        android:layout_marginTop="71dp"
+        android:text="Text One" />
+
+    <Button
+        android:id="@+id/buttonTextTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonTextOne"
+        android:layout_alignRight="@+id/buttonTextOne"
+        android:layout_below="@+id/buttonTextOne"
+        android:layout_marginTop="54dp"
+        android:text="Text Two" />
+
+    <Button
+        android:id="@+id/buttonTextThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonTextTwo"
+        android:layout_alignRight="@+id/buttonTextTwo"
+        android:layout_below="@+id/buttonTextTwo"
+        android:layout_marginTop="52dp"
+        android:text="Text Three" />
+
+</RelativeLayout>
